@@ -35,6 +35,12 @@
             line-height: 27px;
             
         }
+        .btn_orange{
+            height: 100%;
+            text-align: center;
+            padding-top:62px;
+            padding-bottom: 145px;
+        }
         a{
             background-color: #eb7d4b;
             border-bottom: 4px solid #c86a40;
@@ -42,7 +48,7 @@
             color: $white;
             padding: 28px 82px;
             display: inline-block;
-            margin:  62px auto 145px 36.7%;
+            margin:  0 auto;
         }
     }
 }

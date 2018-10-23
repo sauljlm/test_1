@@ -45,7 +45,12 @@
                 border-radius: 5px;
             }
             .submit{
-                
+                height: 100%;
+                padding-top: 55px;
+                padding-bottom: 83px;
+                text-align: center;
+            }
+            .btn_submit{
                 background-color: #30bae7;
                 border: none;
                 border-bottom: 4px solid #299ec5;
@@ -53,7 +58,7 @@
                 color: $white;
                 padding: 28px 82px;
                 display: inline-block;
-                margin:  55px auto 83px 36.7%;
+                margin: auto;
             }
         }
     }

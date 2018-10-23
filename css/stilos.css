@@ -77,6 +77,11 @@ a {
       text-align: center;
       font-size: 35px;
       line-height: 27px; }
+    .welcome .content .btn_orange {
+      height: 100%;
+      text-align: center;
+      padding-top: 62px;
+      padding-bottom: 145px; }
     .welcome .content a {
       background-color: #eb7d4b;
       border-bottom: 4px solid #c86a40;
@@ -84,7 +89,7 @@ a {
       color: white;
       padding: 28px 82px;
       display: inline-block;
-      margin: 62px auto 145px 36.7%; }
+      margin: 0 auto; }
 
 .services {
   background-color: #17c2a4; }
@@ -144,6 +149,11 @@ a {
         height: 200px;
         border-radius: 5px; }
       .getInTouch .content #form .submit {
+        height: 100%;
+        padding-top: 55px;
+        padding-bottom: 83px;
+        text-align: center; }
+      .getInTouch .content #form .btn_submit {
         background-color: #30bae7;
         border: none;
         border-bottom: 4px solid #299ec5;
@@ -151,7 +161,7 @@ a {
         color: white;
         padding: 28px 82px;
         display: inline-block;
-        margin: 55px auto 83px 36.7%; }
+        margin: auto; }
 
 .content {
   padding-top: 48px !important; }
@@ -171,5 +181,16 @@ a {
       color: #30bae7; }
     #footer .menu_footer li + li {
       padding-left: 5.5%; }
+
+@media (max-width: 1024px) {
+  #footer .content {
+    padding-left: 0;
+    padding-right: 0; }
+    #footer .content .menu_footer {
+      padding-left: 3%; }
+      #footer .content .menu_footer li {
+        font-size: 24px; }
+      #footer .content .menu_footer li + li {
+        padding-left: 5.5%; } }
 
 /*# sourceMappingURL=stilos.css.map */

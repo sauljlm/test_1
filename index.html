@@ -8,6 +8,7 @@
     <link rel="styleSheet" href="css/stilos.css"> <!--link externo-->
     <script src="js/script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
+    <meta name="viewport" content="width=500, initial-scale=1">
 </head>
 <body>
   <!--header-->
@@ -31,9 +32,9 @@
       <div class="content">
         <p class="first_p">Hi there! We are the new kids on the block </p>
         <p>and we build awesome websites and mobile apps.</p>
-        
-            <a href="#">WORK WITH US!</a>
-        
+        <div class="btn_orange">
+          <a href="#">WORK WITH US!</a>
+        </div>
       </div>
     <!--end welcome-->
     </div>
@@ -93,8 +94,9 @@
 
             <label for="Your_Message">Your Message<span> *</span></label>
             <textarea class="background" name="Your_Message" id="Your_Message"></textarea>
-
-            <input class="submit" type="submit" value="SEND MESSAGE">
+            <div class="submit">
+              <input class="btn_submit" type="submit" value="SEND MESSAGE">
+            </div>
           </form>
         <!--end form-->
         </div>
