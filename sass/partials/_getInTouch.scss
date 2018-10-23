@@ -14,7 +14,7 @@
             text-align: center;
         }
         #form{
-            width: 862px;
+            width: 78.36%;
             margin: 0 auto;
             .background{
                 background-color: #273a71;
@@ -28,18 +28,16 @@
                 }
             }
             .box_form{
-                width: 430px;
+                width: 50%;
                 float: left;
                 
                 input{
-                    width: 413px;
+                    width: 97%;
                     height: 56px;
                     border-radius: 5px;
                     
                 }
-                .left{
-                    padding-left: 32px;
-                }
+                
             }
             textarea{
                 width: 100%;
@@ -48,15 +46,14 @@
             }
             .submit{
                 
-                    background-color: #30bae7;
-                    border: none;
-                    border-bottom: 4px solid #299ec5;
-                    border-radius: 5px;
-                    color: $white;
-                    padding: 28px 82px;
-                    display: inline-block;
-                    margin:  61px 300px;
-                
+                background-color: #30bae7;
+                border: none;
+                border-bottom: 4px solid #299ec5;
+                border-radius: 5px;
+                color: $white;
+                padding: 28px 82px;
+                display: inline-block;
+                margin:  55px auto 83px 36.7%;
             }
         }
     }

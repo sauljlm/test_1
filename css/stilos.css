@@ -32,7 +32,7 @@ a {
   clear: both; }
 
 .shadow {
-  width: 87px;
+  width: 7.9%;
   height: 3px;
   margin: 0 auto;
   background-color: black;
@@ -53,10 +53,10 @@ a {
   background-color: #87509c; }
   .welcome .content {
     padding-top: 58px;
-    padding-left: 42px;
-    padding-right: 42px; }
+    padding-left: 3%;
+    padding-right: 3%; }
     .welcome .content img {
-      width: 117px; }
+      width: 9.7%; }
     .welcome .content ul {
       color: white;
       float: right;
@@ -85,14 +85,14 @@ a {
       color: white;
       padding: 28px 82px;
       display: inline-block;
-      margin: 62px 404px 145px 404px; }
+      margin: 62px auto 145px 36.7%; }
 
 .services {
   background-color: #17c2a4; }
   .services .content {
     padding-top: 58px;
-    padding-left: 42px;
-    padding-right: 42px; }
+    padding-left: 3%;
+    padding-right: 3%; }
     .services .content h2 {
       font-weight: normal;
       text-align: center;
@@ -100,7 +100,7 @@ a {
     .services .content p {
       text-align: center; }
     .services .content .box {
-      width: 260px;
+      width: 23.6%;
       float: left; }
       .services .content .box .tutulo {
         padding: 15px 72px; }
@@ -121,7 +121,7 @@ a {
     .getInTouch .content p {
       text-align: center; }
     .getInTouch .content #form {
-      width: 862px;
+      width: 78.36%;
       margin: 0 auto; }
       .getInTouch .content #form .background {
         background-color: #273a71;
@@ -132,14 +132,12 @@ a {
         .getInTouch .content #form label span {
           color: #ff4444; }
       .getInTouch .content #form .box_form {
-        width: 430px;
+        width: 50%;
         float: left; }
         .getInTouch .content #form .box_form input {
-          width: 413px;
+          width: 97%;
           height: 56px;
           border-radius: 5px; }
-        .getInTouch .content #form .box_form .left {
-          padding-left: 32px; }
       .getInTouch .content #form textarea {
         width: 100%;
         height: 200px;
@@ -152,7 +150,7 @@ a {
         color: white;
         padding: 28px 82px;
         display: inline-block;
-        margin: 61px 300px; }
+        margin: 55px auto 83px 36.7%; }
 
 .content {
   padding-top: 48px !important; }
@@ -171,6 +169,6 @@ a {
     #footer .menu_footer li:hover {
       color: #30bae7; }
     #footer .menu_footer li + li {
-      padding-left: 56px; }
+      padding-left: 5.5%; }
 
 /*# sourceMappingURL=stilos.css.map */
