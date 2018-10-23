@@ -36,7 +36,18 @@ a {
   height: 3px;
   margin: 0 auto;
   background-color: black;
-  opacity: 0.35; }
+  opacity: 0.35;
+  margin: 24px auto;
+  margin-top: 15px; }
+
+.main {
+  width: 100%; }
+
+.big_font {
+  font-size: 18px; }
+
+.last {
+  padding-bottom: 30px; }
 
 .welcome {
   background-color: #87509c; }
@@ -48,23 +59,25 @@ a {
       width: 117px; }
     .welcome .content ul {
       color: white;
-      float: right; }
+      float: right;
+      margin-right: 75px;
+      margin-top: 11px; }
       .welcome .content ul li {
         display: inline;
         text-transform: uppercase;
-        font-size: 14px; }
-      .welcome .content ul li + li {
-        padding-left: 45px; }
-      .welcome .content ul .active {
+        line-height: 0;
+        padding: 11px 18px; }
+      .welcome .content ul li:hover {
         background-color: #643a79;
-        padding: 11px 18px;
         border-radius: 5px; }
-      .welcome .content ul .padding_none {
-        padding-left: 27px !important; }
+    .welcome .content .first_p {
+      margin-top: 87px;
+      padding-bottom: 20px; }
     .welcome .content p {
       color: white;
       text-align: center;
-      font-size: 35px; }
+      font-size: 35px;
+      line-height: 27px; }
     .welcome .content a {
       background-color: #eb7d4b;
       border-bottom: 4px solid #c86a40;
@@ -72,7 +85,7 @@ a {
       color: white;
       padding: 28px 82px;
       display: inline-block;
-      margin: 61px 404px 145px 404px; }
+      margin: 62px 404px 145px 404px; }
 
 .services {
   background-color: #17c2a4; }
@@ -115,7 +128,9 @@ a {
         border: #273a71; }
       .getInTouch .content #form label {
         color: white;
-        margin: 15px 20px; }
+        margin: 0 20px; }
+        .getInTouch .content #form label span {
+          color: #ff4444; }
       .getInTouch .content #form .box_form {
         width: 430px;
         float: left; }
@@ -131,20 +146,31 @@ a {
         border-radius: 5px; }
       .getInTouch .content #form .submit {
         background-color: #30bae7;
+        border: none;
         border-bottom: 4px solid #299ec5;
         border-radius: 5px;
         color: white;
         padding: 28px 82px;
         display: inline-block;
         margin: 61px 300px; }
-      .getInTouch .content #form .menu_footer ul {
-        color: white;
-        float: right; }
-        .getInTouch .content #form .menu_footer ul li {
-          display: inline;
-          text-transform: uppercase;
-          font-size: 14px; }
-        .getInTouch .content #form .menu_footer ul li + li {
-          padding-left: 45px; }
+
+.content {
+  padding-top: 48px !important; }
+
+#footer {
+  background-color: #344b8e;
+  height: 107px; }
+  #footer .menu_footer {
+    padding-left: 82px; }
+    #footer .menu_footer li {
+      display: inline;
+      font-size: 14px;
+      color: white;
+      font-size: 24px;
+      line-height: 0; }
+    #footer .menu_footer li:hover {
+      color: #30bae7; }
+    #footer .menu_footer li + li {
+      padding-left: 56px; }
 
 /*# sourceMappingURL=stilos.css.map */

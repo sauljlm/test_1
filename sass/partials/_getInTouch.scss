@@ -1,0 +1,63 @@
+.getInTouch{
+    background-color: #3c5499;
+    .content{
+        padding-top: 58px;
+        padding-left: 42px;
+        padding-right: 42px;
+        h2{
+            font-weight: normal;
+            text-align: center;
+            font-size: 40px;
+            
+        }
+        p{
+            text-align: center;
+        }
+        #form{
+            width: 862px;
+            margin: 0 auto;
+            .background{
+                background-color: #273a71;
+                border: #273a71;
+            }
+            label{
+                color: $white;
+                margin: 0 20px;
+                span{
+                    color: #ff4444;
+                }
+            }
+            .box_form{
+                width: 430px;
+                float: left;
+                
+                input{
+                    width: 413px;
+                    height: 56px;
+                    border-radius: 5px;
+                    
+                }
+                .left{
+                    padding-left: 32px;
+                }
+            }
+            textarea{
+                width: 100%;
+                height: 200px;
+                border-radius: 5px;
+            }
+            .submit{
+                
+                    background-color: #30bae7;
+                    border: none;
+                    border-bottom: 4px solid #299ec5;
+                    border-radius: 5px;
+                    color: $white;
+                    padding: 28px 82px;
+                    display: inline-block;
+                    margin:  61px 300px;
+                
+            }
+        }
+    }
+}
