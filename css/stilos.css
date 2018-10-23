@@ -23,7 +23,6 @@ a {
 
 .content {
   max-width: 1100px;
-  width: 100%;
   margin: 0 auto; }
 
 .clearfix:after {
@@ -102,6 +101,8 @@ a {
     .services .content .box {
       width: 23.6%;
       float: left; }
+      .services .content .box img {
+        width: 100%; }
       .services .content .box .tutulo {
         padding: 15px 72px; }
       .services .content .box p {
@@ -159,7 +160,7 @@ a {
   background-color: #344b8e;
   height: 107px; }
   #footer .menu_footer {
-    padding-left: 82px; }
+    padding-left: 5.7%; }
     #footer .menu_footer li {
       display: inline;
       font-size: 14px;
