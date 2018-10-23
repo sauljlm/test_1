@@ -1,0 +1,33 @@
+@media (max-width: $breakpoint-md){
+    .services{
+        .content{
+            .big_font{
+                font-size: 1.6em;
+            }
+            .box{
+                width: 48%;
+                height: auto;
+                h3{
+                    font-size: 1.4em;
+                }
+                p{
+                    padding: 15px 0px;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+    
+    #footer{
+        .content{
+            .menu_footer{
+                li{
+                    font-size: 1em;
+                }
+                li+li{
+                    padding-left: 5%;
+                }
+            }
+        }
+    }
+}    

@@ -54,6 +54,9 @@
                 display: inline-block;
                 margin: auto;
             }
+            .btn_submit:active{
+                border-bottom: none;
+            }
         }
     }
 }

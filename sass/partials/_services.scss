@@ -1,9 +1,7 @@
 .services{
     background-color: #17c2a4;
     .content{
-        padding-top: 58px;
-        padding-left: $air;
-        padding-right: $air;
+        padding: 58px $air 58px $air;
         h2{
             font-weight: normal;
             text-align: center;

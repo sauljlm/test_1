@@ -5,8 +5,16 @@
         padding-top: 58px;
         padding-left: $air;
         padding-right: $air;
-        img{
+        .logo{
             width: 9.7%;
+        }
+        #btn_menu{
+            display: none;
+            width: 10%;
+            margin-right: 2%;
+            position: absolute;
+            right:0;
+            top: 35px;
         }
         ul{
             color: $white; 
@@ -49,6 +57,9 @@
             padding: 28px 82px;
             display: inline-block;
             margin:  0 auto;
+        }
+        a:active{
+            border-bottom:none;
         }
     }
 }

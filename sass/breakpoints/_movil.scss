@@ -1,0 +1,51 @@
+@media only screen and (max-width: $breakpoint-sm){
+    .shadow{
+        width: 25%;
+    }
+    
+    .menu{
+        display: none;
+    }
+    #btn_menu{
+        display: block;
+    }
+    .welcome{
+        .content{
+            p{
+                font-size: 1.4em;
+            }
+        }
+        
+    }
+    .services{
+        .content{
+            .big_font{
+                font-size: 1.8em;
+            }
+            .box{
+                width: 100%;
+                margin-left: 0;
+                h3{
+                    font-size: 2.1em;
+                }
+                p{
+                    padding: 15px 35px;
+                    font-size: 1.5em;
+                }
+            }
+            
+        }
+    }
+    #footer{
+        .content{
+            .menu_footer{
+                li{
+                    font-size: 0.8em;
+                }
+                li+li{
+                    padding-left: 3%;
+                }
+            }
+        }
+    }
+}    
