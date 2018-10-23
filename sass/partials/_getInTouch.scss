@@ -2,14 +2,8 @@
     background-color: #3c5499;
     .content{
         padding-top: 58px;
-        padding-left: 42px;
-        padding-right: 42px;
-        h2{
-            font-weight: normal;
-            text-align: center;
-            font-size: 40px;
-            
-        }
+        padding-left: $air;
+        padding-right: $air;
         p{
             text-align: center;
         }
@@ -17,8 +11,8 @@
             width: 78.36%;
             margin: 0 auto;
             .background{
-                background-color: #273a71;
-                border: #273a71;
+                background-color: $background_form;
+                border: $background_form;
             }
             label{
                 color: $white;
@@ -51,9 +45,9 @@
                 text-align: center;
             }
             .btn_submit{
-                background-color: #30bae7;
+                background-color: $btn_submit;
                 border: none;
-                border-bottom: 4px solid #299ec5;
+                border-bottom: 4px solid $btn_submit_border;
                 border-radius: 5px;
                 color: $white;
                 padding: 28px 82px;
