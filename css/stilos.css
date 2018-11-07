@@ -55,7 +55,7 @@ p, a {
     padding-left: 3%;
     padding-right: 3%; }
     .welcome .content .logo {
-      width: 9.7%; }
+      width: 10%; }
     .welcome .content #btn_menu {
       display: none;
       width: 10%;
@@ -212,31 +212,39 @@ p, a {
     padding-left: 5%; } }
 @media only screen and (max-width: 615px) {
   .shadow {
+    width: 25% !important; }
+
+  .logo {
     width: 25%; }
 
   .menu {
     display: none; }
 
   #btn_menu {
-    display: block; }
+    display: block !important; }
 
   .welcome .content p {
     font-size: 1.4em; }
 
-  .services .content .big_font {
+  .content .big_font {
     font-size: 1.8em; }
-  .services .content .box {
-    width: 100%;
+  .content .box {
+    width: 100% !important;
     margin-left: 0; }
-    .services .content .box h3 {
+    .content .box h3 {
       font-size: 2.1em; }
-    .services .content .box p {
+    .content .box p {
       padding: 15px 35px;
       font-size: 1.5em; }
 
-  #footer .content .menu_footer li {
+  .box_form {
+    width: 100% !important; }
+    .box_form input {
+      width: 100% !important; }
+
+  #footer .menu_footer li {
     font-size: 0.8em; }
-  #footer .content .menu_footer li + li {
+  #footer .menu_footer li + li {
     padding-left: 3%; } }
 
 /*# sourceMappingURL=stilos.css.map */
