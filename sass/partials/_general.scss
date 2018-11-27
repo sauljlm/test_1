@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+ul{
+    list-style: none;
+}
+h3, h2{
+    color: $white;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+p,a {
+    color: $white;
+    text-decoration: none;
+}
+.content{
+    max-width: 1100px;
+    margin: $center;
+}
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.shadow{
+    width: 7.9%;
+    height: 3px;
+    margin: $center;
+    background-color: black;
+    opacity: 0.35;
+    margin: 24px auto;
+    margin-top: 15px;
+}
+.main{
+    width: 100%;
+}
+.big_font{
+    font-size: 18px;
+}
+.last{
+    padding-bottom: 30px;
+}

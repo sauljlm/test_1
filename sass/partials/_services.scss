@@ -1,0 +1,28 @@
+.services{
+    background-color: #17c2a4;
+    .content{
+        padding: 58px $air 58px $air;
+        h2{
+            font-weight: normal;
+            text-align: center;
+            font-size: 40px;
+        }
+        p{
+            text-align: center;
+        }
+        .box{
+            width: 23.6%;
+            float: left;
+            img{
+                width: 100%;
+            }
+            .tutulo{
+                padding: 15px 72px;
+            }
+            p{
+                padding: 15px 35px 130px 35px;
+                font-size: 13px;
+            }
+        }
+    }
+}
